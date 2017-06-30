@@ -7,7 +7,7 @@
             "email": "adrianovictor@hotmail.com"
         }
     ],
-    "type": "package",
+    "type": "library",
     "require": {
         "php": ">=5.6",
         "doctrine/dbal": "2.5.12"
@@ -17,9 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Core\\": "src/Entity"
+            "App\\Core\\": "lib/Entity"
         }
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+    "archive": {
+        "exclude": [
+            "!vendor", "tests", "*phpunit"
+        ]
+    }
 }
