@@ -1,5 +1,5 @@
 {
-    "name": "Agenda Core",
+    "name": "agenda-core/agenda-core",
     "description": "Componente de persistencia de dados para o sistema agenda",
     "authors": [
         {
